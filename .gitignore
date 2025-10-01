@@ -1,0 +1,6 @@
+TrainSet/
+ValidationSet/
+yolo_dataset/
+__pycache__/
+*.pyc
+.vscode/

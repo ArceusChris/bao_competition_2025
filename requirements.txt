@@ -1,0 +1,34 @@
+# 改进的YOLO-World系统依赖包
+
+# 核心依赖
+ultralytics>=8.0.0
+torch>=1.9.0
+torchvision>=0.10.0
+opencv-python>=4.5.0
+pillow>=8.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 传统NLP方法
+spacy>=3.4.0
+nltk>=3.7
+yake>=0.4.8
+
+# 深度学习NLP方法
+transformers>=4.20.0
+sentence-transformers>=2.2.0
+keybert>=0.7.0
+scikit-learn>=1.0.0
+accelerate>=0.20.0
+
+# 数据处理
+datasets>=2.0.0
+pandas>=1.3.0
+
+# 可选依赖 (大语言模型)
+# openai>=0.27.0  # 取消注释以启用GPT支持
+# anthropic>=0.3.0  # 取消注释以启用Claude支持
+
+# YAML处理
+pyyaml>=6.0
