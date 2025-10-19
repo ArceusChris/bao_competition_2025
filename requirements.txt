@@ -1,0 +1,22 @@
+PyYAML
+easydict
+cython
+opencv-python
+pandas
+tqdm
+pycocotools
+jpeg4py
+tensorboard
+tensorboardX
+tikzplotlib
+git+https://github.com/Lyken17/pytorch-OpCounter.git
+colorama
+lmdb
+scipy
+visdom
+git+https://github.com/votchallenge/vot-toolkit-python
+onnx
+onnxruntime-gpu
+timm
+pytorch_pretrained_bert
+# 依赖不限制版本，适用于新环境

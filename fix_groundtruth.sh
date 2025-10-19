@@ -1,0 +1,1 @@
+find /public/home/lxy/bao_3/UniMod1K/SPT/dataset/ValidationSet/ -type f -name "groundtruth_rect.txt" -execdir mv {} groundtruth.txt \;
