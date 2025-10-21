@@ -4,7 +4,7 @@ def local_env_settings():
     settings = EnvSettings()
 
     # Set your local paths here.
-    settings.unimod1k_path = '/public/home/lxy/bao_3/UniMod1K/SPT/dataset/ValidationSet'
+    settings.unimod1k_path = '/public/home/lxy/bao_3/UniMod1K/SPT/dataset/TestSet_fixed'
 
     settings.davis_dir = ''
     settings.got10k_lmdb_path = '/public/home/lxy/bao_3/UniMod1K/SPT/data/got10k_lmdb'

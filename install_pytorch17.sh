@@ -1,5 +1,6 @@
 echo "****************** Installing pytorch ******************"
-conda install -y pytorch==1.7.0 torchvision==0.8.1 cudatoolkit=10.2 -c pytorch
+# conda install -y pytorch==1.7.0 torchvision==0.8.1 cudatoolkit=10.2 -c pytorch
+conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.4 -c pytorch -c nvidia
 
 echo ""
 echo ""
@@ -85,18 +86,20 @@ pip install git+https://github.com/votchallenge/vot-toolkit-python
 echo ""
 echo ""
 echo "****************** Installing onnx and onnxruntime-gpu ******************"
-pip install onnx onnxruntime-gpu==1.6.0
+# pip install onnx onnxruntime-gpu==1.6.0
+pip install onnx onnxruntime-gpu
 
 echo ""
 echo ""
 echo "****************** Installing timm ******************"
-pip install timm==0.3.2
+# pip install timm==0.3.2
+pip install timm
 
 echo ""
 echo ""
 echo "****************** Installing pytorch_pretrained_bert******************"
-pip install pytorch_pretrained_bert==0.6.2
-
+# pip install pytorch_pretrained_bert==0.6.2
+pip install pytorch_pretrained_bert
 echo ""
 echo ""
 

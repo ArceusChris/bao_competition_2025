@@ -1,6 +1,5 @@
-pretrained_models/
-pretrained_models/
-bert/
+data/
 dataset/
-bert-20251019T121703Z-1-001.zip
-STARKS_ep0500.pth.tar
+job_output/
+pretrained_models/
+pretrained_models_bk/

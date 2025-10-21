@@ -20,11 +20,13 @@ echo "分配的GPU: $CUDA_VISIBLE_DEVICES"
 # conda init
 # conda activate spt_py37
 # echo "当前激活的Conda环境: $CONDA_DEFAULT_ENV"
+# export LD_LIBRARY_PATH="/public/home/lxy/toolchain-dir/x86_64-linux-gnu/x86_64-linux-gnu/sysroot/lib:$LD_LIBRARY_PATH"
+# echo "已设置 LD_LIBRARY_PATH: $LD_LIBRARY_PATH"
 
 cd /public/home/lxy/bao_3/UniMod1K/SPT    # 确认路径正确
 
-echo "开始在 spt_py37 环境中运行Python脚本..."
+echo "开始在 1 环境中运行Python脚本..."
 # 使用 conda run 来确保在正确的环境中执行
-conda run -n spt_py37 python ./tracking/test.py
+conda run -n spt_py38_pth182 python ./tracking/test.py
 echo "作业结束时间: $(date)"
 

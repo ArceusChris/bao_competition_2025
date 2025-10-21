@@ -41,6 +41,9 @@ class UniMod1KDataset(BaseDataset):
         for c_path, d_path in zip(color_frames, depth_frames):
             frames.append({'color': c_path, 'depth': d_path})
 
+        # Add this line to fix the shape issue
+        ground_truth_rect = np.atleast_2d(ground_truth_rect)
+
         # Convert gt
         if ground_truth_rect.shape[1] > 4:
             gt_x_all = ground_truth_rect[:, [0, 2, 4, 6]]
