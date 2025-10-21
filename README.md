@@ -1,3 +1,5 @@
+# [正确地配置环境的方法](spt_env.yaml)
+
 # UniMod1K: Towards a More Universal Large-Scale Dataset and Benchmark for Multi-Modal Learning
 
 The official implementation of the multi-modal (Vision, Depth and Language) SPT tracker of the paper **UniMod1K: Towards a More Universal Large-Scale Dataset and Benchmark for Multi-Modal Learning**
