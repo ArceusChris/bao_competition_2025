@@ -26,7 +26,7 @@ DATA:
     SAMPLE_PER_EPOCH: 30000
 
 MODEL:
-  PRETRAINED: '/public/home/lxy/bao_3/UniMod1K/SPT/pretrained_models/STARKS_ep0500.pth.tar'
+  PRETRAINED: '/public/home/lxy/bao_3/UniMod1K/SPT_bk2/pretrained_models/STARKS_ep0500.pth.tar'
   BACKBONE:
     DILATION: false
     OUTPUT_LAYERS:
@@ -48,8 +48,8 @@ MODEL:
   LANGUAGE:
     IMPLEMENT: 'pytorch'
     TYPE: 'bert-base-uncased'
-    PATH: '/public/home/lxy/bao_3/UniMod1K/SPT/pretrained_models/bert/bert-base-uncased.tar.gz'
-    VOCAB_PATH: '/public/home/lxy/bao_3/UniMod1K/SPT/pretrained_models/bert/bert-base-uncased-vocab.txt'
+    PATH: '/public/home/lxy/bao_3/UniMod1K/SPT_bk2/pretrained_models/bert/bert-base-uncased.tar.gz'
+    VOCAB_PATH: '/public/home/lxy/bao_3/UniMod1K/SPT_bk2/pretrained_models/bert/bert-base-uncased-vocab.txt'
 TRAIN:
   BACKBONE_MULTIPLIER: 0.1
   BATCH_SIZE: 16

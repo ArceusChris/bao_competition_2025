@@ -1,6 +1,6 @@
 echo "****************** Installing pytorch ******************"
 # conda install -y pytorch==1.7.0 torchvision==0.8.1 cudatoolkit=10.2 -c pytorch
-conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.4 -c pytorch -c nvidia
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124a
 
 echo ""
 echo ""
@@ -40,7 +40,7 @@ pip install pycocotools
 echo ""
 echo ""
 echo "****************** Installing jpeg4py python wrapper ******************"
-apt-get install libturbojpeg
+# apt-get install libturbojpeg
 pip install jpeg4py
 
 echo ""

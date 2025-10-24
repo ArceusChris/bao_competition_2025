@@ -3,3 +3,5 @@ dataset/
 job_output/
 pretrained_models/
 pretrained_models_bk/
+valid/
+checkpoints/
